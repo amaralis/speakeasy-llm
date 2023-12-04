@@ -4,6 +4,8 @@ warnings.simplefilter("ignore")
 
 model = whisper.load_model("tiny")
 
-result = model.transcribe(audio="./audio-files/sample2.mp3")
+result = model.transcribe(audio="./audio-files/output.wav")
 
 print(result["text"])
+
+speechCapture = result["text"]

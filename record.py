@@ -1,32 +1,7 @@
-import pyaudio
-# import wave
-
-# chunk = 1024  # Record in chunks of 1024 samples
-# sample_format = pyaudio.paInt16  # 16 bits per sample
-# channels = 1
-# sampleRate = 44100  # Record at 44100 samples per second
-# seconds = 3
-# filename = "./audio-files/output.wav"
-
-# audioInterface = pyaudio.PyAudio()  # Create an interface to PortAudio
-
-# stream = audioInterface.open(input=True, channels=1, frames_per_buffer=chunk, rate=sampleRate, format=sample_format)
-
-# frames = [] # Initialize frame array
-
-# print('Recording')
-
-
-
-
-# print('Finished recording')
-
-# Sure! Here's an example of how you could do this using the `pyaudio` library:
-
-import keyboard, time, math, wave
+import pyaudio, keyboard, time, wave
 
 chunkSize = 1024  # Record in chunks of 1024 samples
-sampleRate = 44100 # Record at 44100 samples per second
+sampleRate = 44100 # Record at 44100 samples per second  
 sampleFormat = pyaudio.paInt16
 numChannels = 1
 filename = './audio-files/recordedSample.wav'

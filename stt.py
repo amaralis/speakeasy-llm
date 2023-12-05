@@ -8,3 +8,4 @@ def speechToText(sourceAudioFile, targetTextFile):
     print(speechCapture)
     with open(targetTextFile, mode="wt") as file:
         file.write(speechCapture)
+    return speechCapture

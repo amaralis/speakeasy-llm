@@ -23,4 +23,6 @@ def sendPromptToLLM(prompt="Reply with 'There must be a bug in your code. I didn
         temperature=0
     )
 
-    print(completion.choices[0].message)
+    print("Message from LLM: ", completion.choices[0].message.content)
+    print("Type: ", type(completion.choices[0].message.content))
+    return completion.choices[0].message.content

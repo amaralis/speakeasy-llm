@@ -13,8 +13,7 @@ def sendPromptToLLM(prompt="Reply with 'There must be a bug in your code. I didn
         messages=[
             {
                 "role": "system",
-                # "content": messages["testMsg"]
-                "content": messages["vehicleApi"]
+                "content": messages["basicAssistant"]
                 },
             {
                 "role": "user", 

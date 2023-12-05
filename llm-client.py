@@ -1,15 +1,18 @@
-# Example: reuse your existing OpenAI setup
-import openai, systemMessages
+from openai import OpenAI
+from systemMessages import messages
 from prompt import prompt
-# use codellama instruct
-client = openai.OpenAI(base_url="http://localhost:8080/v1", api_key="not-needed")
+from configs import configs
+
+# Codellama-instruct LLM has yielded the best results so far
+
+client = OpenAI(base_url=configs["localUrl"], api_key="not-needed")
 
 completion = client.chat.completions.create(
     model="local-model", 
     messages=[
         {
             "role": "system", 
-            "content": systemMessages.messages["vehicleApi"]},
+            "content": messages["vehicleApi"]},
         {
             "role": "user", 
             "content": prompt
@@ -19,4 +22,3 @@ completion = client.chat.completions.create(
 )
 
 print(completion.choices[0].message)
-

@@ -1,1 +1,5 @@
-prompt="alright, looks like we're all set!"
+from stt import speechCapture
+
+prompt=speechCapture
+
+print(prompt)

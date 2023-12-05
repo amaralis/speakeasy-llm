@@ -5,7 +5,7 @@ Basic example of edge_tts usage.
 import asyncio, edge_tts
 from playsound import playsound
 
-VOICE = "en-GB-SoniaNeural"
+VOICE = "en-US-SteffanNeural"
 OUTPUT_FILE = "test.mp3"
 
 async def convertTextToSpeech(text):

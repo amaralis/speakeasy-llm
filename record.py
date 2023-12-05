@@ -29,8 +29,8 @@ def startRecording():
         if keyboard.is_pressed(' '):
             stopTime = time.time()
             print('Stop time:', stopTime)
-            print('Recording stopped') 
-            break    
+            print('Recording stopped')
+            break
 
     print('Duration:', stopTime - startTime)
  

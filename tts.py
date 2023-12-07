@@ -6,7 +6,7 @@ import asyncio, edge_tts
 from playsound import playsound
 
 VOICE = "en-US-SteffanNeural"
-OUTPUT_FILE = "test.mp3"
+OUTPUT_FILE = "./voice-reply/reply-1.mp3"
 
 async def convertTextToSpeech(text):
     communicate = edge_tts.Communicate(text, VOICE)

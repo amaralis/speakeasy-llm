@@ -13,7 +13,7 @@ record('space', './audio-files/recordedSample.wav')
 
 
 prompt = speechToText("./audio-files/recordedSample.wav", './transcriptions/transcription.txt')
-print("Speech: ", prompt)
+print("Recorded speech: ", prompt)
 
 # Send the prompt converted to text to the LLM
 response = connector.sendPrompt(llm, prompt)

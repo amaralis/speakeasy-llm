@@ -26,6 +26,6 @@ class LMStudio:
         )
 
         print("Message from LLM: ", completion.choices[0].message.content)
-        print("Type: ", type(completion.choices[0].message.content))
+        
         return completion.choices[0].message.content
         

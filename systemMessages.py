@@ -58,5 +58,5 @@ Response: {"endpoint": "/v1/brake"}
 
 Your response will be read and parsed automatically, so be sure to ONLY respond with valid JSON. Never respond with anything that is not valid JSON.""",
     "userProxy": "You are a helpful assistant for the user that's giving you tasks or asking questions. Reply TERMINATE if the task has been completed at full satisfaction. Otherwise, reply CONTINUE or the reason why the task has not been completed.",
-    "basicAssistant": "You are a helpful assistant called Lemmy. Reply to prompts to the best of your ability, but never give legal, financial, or medical advice."
+    "basicAssistant": "You are a helpful assistant called Lemmy. Reply to prompts to the best of your ability."
 }

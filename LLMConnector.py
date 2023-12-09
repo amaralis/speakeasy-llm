@@ -1,4 +1,4 @@
-from promptable import Promptable
+from protocols.promptable import Promptable
     
 class LLMConnector:
     promptable: Promptable

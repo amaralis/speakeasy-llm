@@ -1,6 +1,5 @@
 from openai import OpenAI
 from systemMessages import messages
-from configs import configs
 
 class LMStudio:
     prompt: str
@@ -9,7 +8,7 @@ class LMStudio:
     
     # Tested with Llama 2 7B q5_0 ggml by TheBloke using LM Studio with "Default LM Studio Windows" config
 
-        client = OpenAI(base_url=configs["localUrl"], api_key="not-needed")
+        client = OpenAI(base_url="http://localhost:8080/v1", api_key="not-needed")
 
         completion = client.chat.completions.create(
             model="local-model", 

@@ -1,10 +1,8 @@
-import asyncio
 from LLMConnector import LLMConnector
-from promptable import Promptable
-from LMStudio import LMStudio
+from protocols.promptable import Promptable
+from llms.LMStudio import LMStudio
 from record import record
 from stt import speechToText
-from llmClient import submitPrompt
 from tts import play
 
 llm: Promptable = LMStudio()

@@ -1,14 +1,10 @@
 from promptable import Promptable
     
 class LLMConnector:
-    promptable: promptable
+    promptable: Promptable
 
     def __init__(self, promptable: Promptable):
-        self.promptable = Promptable
-        pass
+        self.promptable = promptable
 
-    def chooseModel(promptable: Promptable):
-        return promptable
-
-    def sendPrompt(promptable: Promptable):
-        promptable.submitPrompt(prompt)
+    def sendPrompt(self, promptable: Promptable, prompt):
+        return promptable.submitPrompt(prompt)

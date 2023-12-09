@@ -18,7 +18,7 @@ prompt = speechToText("./audio-files/recordedSample.wav", './transcriptions/tran
 print("Speech: ", prompt)
 
 # Send the prompt converted to text to the LLM
-response = submitPrompt(prompt)
+response = connector.sendPrompt(llm, prompt)
 print(response)
 
 # Run text to speech on the text response

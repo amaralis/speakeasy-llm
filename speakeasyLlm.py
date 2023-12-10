@@ -1,9 +1,9 @@
 from LLMConnector import LLMConnector
 from protocols.promptable import Promptable
 from llms.LMStudio import LMStudio
-from record import record
-from stt import speechToText
-from tts import play
+from utils.record import record
+from utils.stt import speechToText
+from utils.tts import play
 
 llm: Promptable = LMStudio()
 

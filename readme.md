@@ -28,9 +28,9 @@ LM Studio is an application that lets you download LLMs and prompt them via loca
 
 1. Clone the repository again
 2. Change directory into the cloned folder
-3. Install `wheel`: `pip install --upgrade wheel`
-4. Install `ffmpeg-python`: `pip install ffmpeg-python`
-5. Create virtual environment
+3. Create virtual environment
+4. Install `wheel`: `pip install --upgrade wheel`
+5. Install `ffmpeg-python`: `pip install ffmpeg-python`
 6. Install dependencies, making sure nothing is cached and everything is redownloaded: `pip install --no-cache-dir --ignore-installed -r requirements.txt`
 7. Import the `startPrompting()` function from `speakeasyLlm.py`
     `from speakeasy import startPrompting`

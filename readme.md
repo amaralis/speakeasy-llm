@@ -24,7 +24,7 @@ LM Studio is an application that lets you download LLMs and prompt them via loca
 9. Call the `startPrompting()` function with the prompt string as argument
 10. Press space bar to start recording your message, and again to stop recording. Wait for the LLM's response.
 
-# In case of errors, exceptions or other shenanigans
+## In case of errors, exceptions or other shenanigans
 
 1. Clone the repository again
 2. Change directory into the cloned folder
@@ -37,7 +37,7 @@ LM Studio is an application that lets you download LLMs and prompt them via loca
 8. Call the `startPrompting()` function with the prompt string as argument
 9. Press space bar to start recording your message, and again to stop recording. Wait for the LLM's response.
 
-### Customization
+# Customization
 
 If you want to use a different LLM API or method of communication with the model, you need to have a class that implements the `Promptable` Protocol.
 

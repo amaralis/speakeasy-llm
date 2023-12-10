@@ -1,5 +1,5 @@
 from openai import OpenAI
-from systemMessages import messages
+from utils.systemMessages import messages
 
 class LMStudio:
     prompt: str

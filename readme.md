@@ -16,14 +16,15 @@ LM Studio is an application that lets you download LLMs and prompt them via loca
 
 1. Install LM Studio
 2. Select the server tab `<->` and use port `8080` for talking to the LLM. If you need to use another port, change the `base_url` in `llms/LMStudio` accordingly.
-3. Create virtual environment
+3. [Clone this repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) 
+4. Skip this step for now. *If* installation of requirements errors out, redo from installation but install `wheel` first: `pip install --upgrade wheel`
+5. Create virtual environment (if on VS Code, tick the option to install requirements and skip step 7)
     Currently, advised method is to use venv. Documentation for VS Code [here](https://code.visualstudio.com/docs/python/environments)
-4. Install and upgrade wheel: `pip install --upgrade wheel`
-5. Install ffmpeg: `pip install ffmpeg-python`
-6. [Clone this repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) 
+6. Install ffmpeg: `pip install ffmpeg-python`
 7. Install dependencies: `$ pip install -r requirements.txt`
 8. Import the `startPrompting()` function from `speakeasyLlm.py`
     `from speakeasy import startPrompting`
+0. Call the `startPrompting()` function with the prompt string as argument
 9. Press space bar to start recording your message, and again to stop recording. Wait for the LLM's response.
 
 ### Customization

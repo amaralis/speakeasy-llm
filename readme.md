@@ -10,10 +10,6 @@ LM Studio is an application that lets you download LLMs and prompt them via loca
 
 - Windows (tested on Windows 10)
 
-## Chocolatey (for Windows)
-
-`pip install ffmpeg-python`
-
 # How to use
 
 1. Install LM Studio

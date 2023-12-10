@@ -5,8 +5,10 @@ Personal project for natural speech with Large Language Models. Will possibly up
 # Requirements
 - Python >=3.9 && <3.12
 - LM Studio
-- Windows (tested on Windows 10)
+
 LM Studio is an application that lets you download LLMs and prompt them via local server, using an API similar to that of OpenAI. Works completely offline, no connection to the exterior. Get it at [https://lmstudio.ai](https://lmstudio.ai). I suggest the Llama-2-7B model to get started.
+
+- Windows (tested on Windows 10)
 
 ## Chocolatey (for Windows)
 

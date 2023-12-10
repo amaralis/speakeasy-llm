@@ -3,8 +3,8 @@
 Personal project for natural speech with Large Language Models. Will possibly update it as the open source technology evolves and the capabilities of local LLMs improve.
 
 # Requirements
-## Python >=3.9 && <3.12
-## LM Studio
+- Python >=3.9 && <3.12
+- LM Studio
 
 LM Studio is an application that lets you download LLMs and prompt them via local server, using an API similar to that of OpenAI. Works completely offline, no connection to the exterior. Get it at [https://lmstudio.ai](https://lmstudio.ai). I suggest the Llama-2-7B model to get started.
 

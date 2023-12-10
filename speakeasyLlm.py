@@ -9,6 +9,7 @@ llm: Promptable = LMStudio()
 
 def startPrompting(model=llm):
     connector = LLMConnector(model)
+    print('Press space bar to start recording your prompt.')
     
     # Start and stop recording with space bar
     record('space', './audio-files/recordedSample.wav')

@@ -11,7 +11,7 @@ audioInterface = pyaudio.PyAudio() # Access the PortAudio resources
 def record(key, filename):
     keyboard.wait(key)
     time.sleep(0.2)
-    print('Recording started')
+    print('Recording started. Press space bar to stop recording and send your prompt to the LLM.')
 
     # Open the audio stream
     stream = audioInterface.open(format=sampleFormat, channels=numChannels, rate=sampleRate, input=True) 
